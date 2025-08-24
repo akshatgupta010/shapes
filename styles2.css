@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #282c34;
+  color: white;
+  text-align: center;
+  padding: 3rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.shape {
+  display: inline-block;
+  margin: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Circle */
+.circle {
+  width: 120px;
+  height: 120px;
+  background: #61dafb;
+  border-radius: 50%;
+}
+
+/* Square */
+.square {
+  width: 120px;
+  height: 120px;
+  background: #21a179;
+}
+
+/* Triangle */
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 104px solid #e1445a;
+}
+
+/* Hover effect */
+.shape:hover {
+  transform: scale(1.1);
+}
